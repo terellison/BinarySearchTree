@@ -26,7 +26,7 @@ int main()
 
 	std::cout << searchTree->InOrder() << std::endl;
 
-	std::cout << searchTree->Remove(65);
+	std::cout << "Removed 65 successfully? " << (searchTree->Remove(65) ? "true" : "false") << std::endl;
 
 	std::cout << searchTree->InOrder() << std::endl;
 
